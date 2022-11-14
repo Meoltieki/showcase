@@ -33,7 +33,7 @@ body {
   margin: auto auto auto;
   width: 400px;
   height:500px;
-  perspective: 1000px;
+  perspective: 1000px;;
 }
 
 .floppy__inner {
