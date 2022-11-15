@@ -17,7 +17,50 @@ sony.addEventListener('click', function () {
     sony.classList.toggle('is-flipped');
 });
 
+
+
+
+
+
+
+/* flipping automation*/
+
+const cards = document.querySelectorAll('.flip-card');
+
+const flipCard = (card, direction) => {
+    switch (direction) {
+      case 'forward':
+        card.children[0].classList.add("rotated");
+        break;
+      case 'back':
+        card.children[0].classList.remove("rotated");
+        break;
+      default:
+        card.children[0].classList.toggle("rotated");
+    }
+  };
+
+  const skipFlip = (cardIndex) => {
+    return cards[cardIndex].getAttribute('data-isHovered') || false;
+  }
+
+  cards.forEach((card, index) => {
+
+    card.addEventListener('mouseenter', (event) => {
+        flipCard(card, 'forward');
+        card.setAttribute('data-isHovered', true);
+      });
+    
+      card.addEventListener('mouseleave', (event) => {
+        flipCard(card, 'back');
+        card.removeAttribute('data-isHovered', false);
+      });
+    });
+    
+
 let currCardIndex = 0;
+
+
 window.setInterval(() => {
   const prevCardIndex = (currCardIndex === 0 && cards.length - 1) || currCardIndex - 1;
 
