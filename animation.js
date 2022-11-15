@@ -25,7 +25,7 @@ sony.addEventListener('click', function () {
 
 /* flipping automation*/
 
-const cards = document.querySelectorAll('.flip-card');
+const cards = document.querySelectorAll('.floppy__inner');
 
 const flipCard = (card, direction) => {
     switch (direction) {
