@@ -10,13 +10,13 @@ floppy.addEventListener('touchstart',function () {
 
 const compaq = document.querySelector('.compaq__inner');
 
-compaq.addEventListener('click', function () {
+compaq.addEventListener('touchstart', function () {
     compaq.classList.toggle('is-flipped');
 });
 
 const sony = document.querySelector('.sony__inner');
 
-sony.addEventListener('click', function () {
+sony.addEventListener('touchstart', function () {
     sony.classList.toggle('is-flipped');
 });
 
