@@ -21,3 +21,9 @@ sony.addEventListener('touchstart', function () {
 });
 
 
+const ibm = document.querySelector('.ibm__inner');
+
+ibm.addEventListener('touchstart', function () {
+    ibm.classList.toggle('is-flipped');
+});
+
