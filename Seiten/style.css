@@ -45,7 +45,7 @@ body {
   position: relative;
 }
 
-.floppy__inner.is-flipped {
+.floppy__inner.is-flipped{
   transform: rotateY(180deg);
 }
 
