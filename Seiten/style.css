@@ -16,10 +16,11 @@ body {
   grid-column-gap: 15%;
   grid-auto-columns: 23%;
   font-family: montserrat, sans-serif;
-  width: 100%;
-  min-height: 100vh;
   overflow-y: hidden;
-  background-color: black;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  max-height: max-content;
+  max-width: max-content;
+  height: 100%;
 }
 
 
@@ -469,98 +470,4 @@ body {
   line-height: 1.4;
 }
 
-/*particles*/
 
-
-
-.one {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgb(200, 223, 223);
-  opacity: 0.5;
-  position: relative;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-.two {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgb(200, 223, 223);
-  opacity: 0.5;
-  position: relative;
-  animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-.three {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: rgb(200, 223, 223);
-  opacity: 0.5;
-  position: relative;
-  animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-
-.four {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgb(200, 223, 223);
-  opacity: 0.5;
-  position: relative;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-.five {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgb(200, 223, 223);
-  opacity: 0.5;
-  position: relative;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-.six {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgb(200, 223, 223);
-  opacity: 0.5;
-  position: relative;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-.seven {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: rgb(200, 223, 223);
-  opacity: 0.5;
-  position: relative;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-
-.eight {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgb(200, 223, 223);
-  opacity: 0.5;
-  position: relative;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
