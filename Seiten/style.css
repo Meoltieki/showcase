@@ -17,7 +17,6 @@ body {
   grid-auto-columns: 23%;
   font-family: montserrat, sans-serif;
   overflow-y: hidden;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   max-height: max-content;
   max-width: max-content;
   height: 100%;
