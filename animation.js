@@ -27,3 +27,9 @@ ibm.addEventListener('touchstart', function () {
     ibm.classList.toggle('is-flipped');
 });
 
+const keyboard = document.querySelector('.keyboard__inner');
+
+keyboard.addEventListener('touchstart', function () {
+    keyboard.classList.toggle('is-flipped');
+});
+
