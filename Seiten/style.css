@@ -13,7 +13,7 @@
 body {
   display: grid;
   grid-template-columns: 500px 500px 500px;
-  grid-template-rows: 600px 600px ;
+  grid-template-rows: 600px 600px;
   font-family: montserrat, sans-serif;
   overflow-y: hidden;
   height: 100%;
@@ -372,7 +372,7 @@ body {
 }
 
 .ibm {
-  grid-area:2 /1/ 3 /2;
+  grid-area: 2 /1/ 3 /2;
   margin: auto auto auto;
   width: 350px;
   height: 500px;
@@ -484,7 +484,7 @@ body {
 }
 
 .keyboard {
-  grid-area:2 /2/ 3 /3;
+  grid-area: 2 /2/ 3 /3;
   margin: auto auto auto;
   width: 350px;
   height: 500px;
@@ -582,5 +582,3 @@ body {
   font-size: 18px;
   line-height: 1.4;
 }
-
-

@@ -1,7 +1,7 @@
 
 const floppy = document.querySelector('.floppy__inner');
 
-floppy.addEventListener('touchstart',function () {
+floppy.addEventListener('touchstart', function () {
     floppy.classList.toggle('is-flipped');
 });
 
