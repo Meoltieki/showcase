@@ -570,7 +570,7 @@ body {
   padding: 30px;
 }
 
-.keyboard_body h3 {
+.keyboard__body h3 {
   color: var(--dark);
   font-size: 24px;
   font-weight: 600;
