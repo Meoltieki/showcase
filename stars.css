@@ -1,13 +1,17 @@
 html {
-  height: 100%;
+  height: 1900px;
   width: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);
   background-position-x: center; 
 }
 
 #position{
+  display:grid; 
+  place-content: center;
   position: sticky;
-  left: 15%;
+  right: 100%;
+  top: 40%;
+  z-index: -1;
 }
 
 #stars {

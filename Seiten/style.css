@@ -12,14 +12,12 @@
 
 body {
   display: grid;
-  grid-auto-flow: column;
-  grid-column-gap: 15%;
-  grid-auto-columns: 23%;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: 600px 600px ;
   font-family: montserrat, sans-serif;
   overflow-y: hidden;
-  max-height: max-content;
-  max-width: max-content;
   height: 100%;
+  justify-content: center;
 }
 
 
@@ -37,6 +35,7 @@ body {
 }
 
 .floppy {
+  grid-area: 1 / 1/ 2 / 2;
   margin: auto auto auto;
   width: 400px;
   height: 500px;
@@ -152,6 +151,7 @@ body {
 }
 
 .compaq {
+  grid-area: 1 / 2/ 2 / 3;
   margin: auto auto auto;
   width: 350px;
   height: 500px;
@@ -260,6 +260,7 @@ body {
 }
 
 .sony {
+  grid-area: 1 / 3/ 2 / 3;
   margin: auto auto auto;
   width: 350px;
   height: 500px;
@@ -371,6 +372,7 @@ body {
 }
 
 .ibm {
+  grid-area:2 /1/ 3 /2;
   margin: auto auto auto;
   width: 350px;
   height: 500px;
@@ -482,6 +484,7 @@ body {
 }
 
 .keyboard {
+  grid-area:2 /2/ 3 /3;
   margin: auto auto auto;
   width: 350px;
   height: 500px;
