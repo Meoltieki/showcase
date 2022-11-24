@@ -68,7 +68,7 @@ body {
 }
 
 .floppy__face--front {
-  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  background-image: linear-gradient(to bottom right,rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -103,7 +103,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+  background-image: linear-gradient(to bottom left, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
 }
@@ -184,7 +184,7 @@ body {
 }
 
 .compaq__face--front {
-  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  background-image: linear-gradient(to bottom right, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -219,7 +219,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+  background-image: linear-gradient(to bottom left, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
 }
@@ -293,7 +293,7 @@ body {
 }
 
 .sony__face--front {
-  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  background-image: linear-gradient(to bottom left,rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -328,7 +328,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+  background-image: linear-gradient(to bottom left, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
 }
@@ -405,7 +405,7 @@ body {
 }
 
 .ibm__face--front {
-  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  background-image: linear-gradient(to bottom right, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -440,7 +440,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+  background-image: linear-gradient(to bottom left, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
 }
@@ -517,7 +517,7 @@ body {
 }
 
 .keyboard__face--front {
-  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  background-image: linear-gradient(to bottom right, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -552,7 +552,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+  background-image: linear-gradient(to bottom left, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
 }
