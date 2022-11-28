@@ -33,3 +33,15 @@ keyboard.addEventListener('touchstart', function () {
     keyboard.classList.toggle('is-flipped');
 });
 
+
+const iphone = document.querySelector('.iphone__inner');
+
+iphone.addEventListener('touchstart', function () {
+    iphone.classList.toggle('is-flipped');
+});
+
+const vhs = document.querySelector('.vhs__inner');
+
+vhs.addEventListener('touchstart', function () {
+    vhs.classList.toggle('is-flipped');
+});

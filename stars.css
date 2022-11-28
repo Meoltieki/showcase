@@ -1,7 +1,7 @@
 html {
   height: 1900px;
   width: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #1b2735 30%, #090a0f 100%);
   background-position-x: center;
 }
 
