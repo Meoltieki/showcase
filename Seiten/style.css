@@ -11,16 +11,21 @@
 }
 
 body {
+ 
+  overflow: hidden;
+}
+
+
+.container{
   display: grid;
   grid-template-columns: 500px 500px 500px;
   grid-template-rows: 600px 600px 600px;
   font-family: montserrat, sans-serif;
+  align-content: end;
   height: min-content;
   justify-content: center;
+
 }
-
-
-
 
 /*floppy disc*/
 
