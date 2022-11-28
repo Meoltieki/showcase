@@ -15,8 +15,7 @@ body {
   grid-template-columns: 500px 500px 500px;
   grid-template-rows: 600px 600px 600px;
   font-family: montserrat, sans-serif;
-  overflow-y: hidden;
-  height: 100%;
+  height: min-content;
   justify-content: center;
 }
 

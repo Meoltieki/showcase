@@ -1,8 +1,9 @@
 html {
-  height: 1900px;
-  width: 100%;
+  min-height: 320px;
+  min-width: 800px;
   background: radial-gradient(ellipse at bottom, #1b2735 30%, #090a0f 100%);
   background-position-x: center;
+  background-repeat: repeat-x;
 }
 
 #position {
