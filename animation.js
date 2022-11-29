@@ -45,3 +45,9 @@ const vhs = document.querySelector('.vhs__inner');
 vhs.addEventListener('touchstart', function () {
     vhs.classList.toggle('is-flipped');
 });
+
+const office = document.querySelector('.office__inner');
+
+office.addEventListener('touchstart', function () {
+    office.classList.toggle('is-flipped');
+});
