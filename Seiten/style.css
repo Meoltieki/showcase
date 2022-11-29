@@ -11,7 +11,6 @@
 }
 
 body {
- 
   overflow: hidden;
 }
 
@@ -23,7 +22,7 @@ body {
   font-family: montserrat, sans-serif;
   align-content: end;
   height: min-content;
-  justify-content: center;
+  justify-content: start;
 
 }
 
