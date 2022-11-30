@@ -64,3 +64,9 @@ const cartridge = document.querySelector('.cartridge__inner');
 cartridge.addEventListener('touchstart', function () {
     cartridge.classList.toggle('is-flipped');
 });
+
+const HDD = document.querySelector('.HDD__inner');
+
+HDD.addEventListener('touchstart', function () {
+    HDD.classList.toggle('is-flipped');
+});
