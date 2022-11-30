@@ -51,3 +51,16 @@ const office = document.querySelector('.office__inner');
 office.addEventListener('touchstart', function () {
     office.classList.toggle('is-flipped');
 });
+
+
+const tv = document.querySelector('.tv__inner');
+
+tv.addEventListener('touchstart', function () {
+    tv.classList.toggle('is-flipped');
+});
+
+const cartridge = document.querySelector('.cartridge__inner');
+
+cartridge.addEventListener('touchstart', function () {
+    cartridge.classList.toggle('is-flipped');
+});
