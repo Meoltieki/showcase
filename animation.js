@@ -70,3 +70,10 @@ const HDD = document.querySelector('.HDD__inner');
 HDD.addEventListener('touchstart', function () {
     HDD.classList.toggle('is-flipped');
 });
+
+
+const Windows = document.querySelector('.Windows__inner');
+
+Windows.addEventListener('touchstart', function () {
+    Windows.classList.toggle('is-flipped');
+});
