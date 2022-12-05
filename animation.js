@@ -96,3 +96,9 @@ const htc = document.querySelector('.htc__inner');
 htc.addEventListener('touchstart', function () {
     htc.classList.toggle('is-flipped');
 });
+
+const cisco = document.querySelector('.cisco__inner');
+
+cisco.addEventListener('touchstart', function () {
+    cisco.classList.toggle('is-flipped');
+});

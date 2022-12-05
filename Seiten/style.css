@@ -18,7 +18,7 @@
 .container {
   display: grid;
   grid-template-columns: 500px 500px 500px;
-  grid-template-rows: 600px 600px 600px 600px 600px;
+  grid-template-rows: 600px 600px 600px 600px 600px 600px;
   font-family: montserrat, sans-serif;
   align-content: end;
   height: min-content;
@@ -1686,6 +1686,115 @@
 }
 
 .htc__body p {
+  color: var(--dark);
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+
+.cable{
+  inline-size: 100%;
+  aspect-ratio: 21 / 14;
+  object-fit: contain;
+
+
+}
+
+.cisco {
+  grid-area: 7/1/ 6 /1;
+  margin: auto auto auto;
+  width: 400px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.cisco__inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.cisco__inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+
+.cisco__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cisco__face--front {
+  background-image: linear-gradient(to bottom right, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cisco__face--front h2 {
+  color: #FFF;
+  font-size: 32px;
+}
+
+.cisco__face--back {
+  background-color: var(--light);
+  transform: rotateY(180deg);
+}
+
+.cisco__content {
+  width: 100%;
+  height: 100%;
+}
+
+.cisco__header {
+  position: relative;
+  padding: 30px 30px 40px;
+}
+
+.cisco__header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom left, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
+  z-index: -1;
+  border-radius: 0px 0px 50% 0px;
+}
+
+
+.cisco__header h2 {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cisco__body {
+  padding: 30px;
+}
+
+.cisco__body h3 {
+  color: var(--dark);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.cisco__body p {
   color: var(--dark);
   font-size: 18px;
   line-height: 1.4;
