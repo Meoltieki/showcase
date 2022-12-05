@@ -77,3 +77,9 @@ const Windows = document.querySelector('.Windows__inner');
 Windows.addEventListener('touchstart', function () {
     Windows.classList.toggle('is-flipped');
 });
+
+const intel = document.querySelector('.intel__inner');
+
+intel.addEventListener('touchstart', function () {
+    intel.classList.toggle('is-flipped');
+});
