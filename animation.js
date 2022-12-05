@@ -83,3 +83,16 @@ const intel = document.querySelector('.intel__inner');
 intel.addEventListener('touchstart', function () {
     intel.classList.toggle('is-flipped');
 });
+
+const internet = document.querySelector('.internet__inner');
+
+internet.addEventListener('touchstart', function () {
+    internet.classList.toggle('is-flipped');
+});
+
+
+const htc = document.querySelector('.htc__inner');
+
+htc.addEventListener('touchstart', function () {
+    htc.classList.toggle('is-flipped');
+});
