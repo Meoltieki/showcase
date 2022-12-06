@@ -102,3 +102,10 @@ const cisco = document.querySelector('.cisco__inner');
 cisco.addEventListener('touchstart', function () {
     cisco.classList.toggle('is-flipped');
 });
+
+const RAM = document.querySelector('.RAM__inner');
+
+RAM.addEventListener('touchstart', function () {
+    RAM.classList.toggle('is-flipped');
+});
+
