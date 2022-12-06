@@ -109,3 +109,9 @@ RAM.addEventListener('touchstart', function () {
     RAM.classList.toggle('is-flipped');
 });
 
+const Wrap = document.querySelector('.Wrap__inner');
+
+Wrap.addEventListener('touchstart', function () {
+    Wrap.classList.toggle('is-flipped');
+});
+
