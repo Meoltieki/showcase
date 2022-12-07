@@ -115,3 +115,8 @@ Wrap.addEventListener('touchstart', function () {
     Wrap.classList.toggle('is-flipped');
 });
 
+const audio = document.querySelector('.audio__inner');
+
+audio.addEventListener('touchstart', function () {
+    audio.classList.toggle('is-flipped');
+});
