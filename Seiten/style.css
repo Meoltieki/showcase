@@ -2139,7 +2139,7 @@
 
 }
 
-.CD {
+.DVD {
   grid-area: 8 / 3/ 7 / 2;
   margin: auto auto auto;
   width: 400px;
@@ -2147,7 +2147,7 @@
   perspective: 1000px;
 }
 
-.CD__inner {
+.DVD__inner {
   width: 100%;
   height: 100%;
   transition: transform 1s;
@@ -2156,12 +2156,12 @@
   position: relative;
 }
 
-.CD__inner.is-flipped {
+.DVD__inner.is-flipped {
   transform: rotateY(180deg);
 }
 
 
-.CD__face {
+.DVD__face {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2172,7 +2172,7 @@
   box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
 
-.CD__face--front {
+.DVD__face--front {
   background-image: linear-gradient(to bottom right, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
   display: flex;
   flex-wrap: wrap;
@@ -2180,27 +2180,27 @@
   justify-content: center;
 }
 
-.CD__face--front h2 {
+.DVD__face--front h2 {
   color: #FFF;
   font-size: 32px;
 }
 
-.CD__face--back {
+.DVD__face--back {
   background-color: var(--light);
   transform: rotateY(180deg);
 }
 
-.CD__content {
+.DVD__content {
   width: 100%;
   height: 100%;
 }
 
-.CD__header {
+.DVD__header {
   position: relative;
   padding: 30px 30px 40px;
 }
 
-.CD__header:after {
+.DVD__header:after {
   content: '';
   display: block;
   position: absolute;
@@ -2214,7 +2214,7 @@
 }
 
 
-.CD__header h2 {
+.DVD__header h2 {
   color: #FFF;
   font-size: 32px;
   font-weight: 900;
@@ -2222,18 +2222,18 @@
   text-align: center;
 }
 
-.CD__body {
+.DVD__body {
   padding: 30px;
 }
 
-.CD__body h3 {
+.DVD__body h3 {
   color: var(--dark);
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
-.CD__body p {
+.DVD__body p {
   color: var(--dark);
   font-size: 18px;
   line-height: 1.4;

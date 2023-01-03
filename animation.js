@@ -121,8 +121,8 @@ audio.addEventListener('touchstart', function () {
     audio.classList.toggle('is-flipped');
 });
 
-const CD = document.querySelector('.CD__inner');
+const DVD = document.querySelector('.DVD__inner');
 
-CD.addEventListener('touchstart', function () {
-    CD.classList.toggle('is-flipped');
+DVD.addEventListener('touchstart', function () {
+    DVD.classList.toggle('is-flipped');
 });
