@@ -126,3 +126,9 @@ const DVD = document.querySelector('.DVD__inner');
 DVD.addEventListener('touchstart', function () {
     DVD.classList.toggle('is-flipped');
 });
+
+const lde = document.querySelector('.lde__inner');
+
+lde.addEventListener('touchstart', function () {
+    lde.classList.toggle('is-flipped');
+});
