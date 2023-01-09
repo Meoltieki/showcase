@@ -2364,7 +2364,7 @@ body::-webkit-scrollbar{
 }
 
 .nokia {
-  grid-area: 8/4/ 7 /3;
+  grid-area: 9/1/ 8 /1;
   margin: auto auto auto;
   width: 400px;
   height: 500px;
