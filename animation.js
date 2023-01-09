@@ -132,3 +132,9 @@ const lde = document.querySelector('.lde__inner');
 lde.addEventListener('touchstart', function () {
     lde.classList.toggle('is-flipped');
 });
+
+const nokia = document.querySelector('.nokia__inner');
+
+nokia.addEventListener('touchstart', function () {
+    nokia.classList.toggle('is-flipped');
+});
