@@ -4,15 +4,19 @@
   --dark: #413d6e;
   --light: #A3C7D6;
 }
+*::-webkit-scrollbar{
 
+  display:none;
+}
 * {
   margin: 0;
   padding: 0;
 }
 
-/*body {
+body::-webkit-scrollbar{
+  display: hidden;
+}
 
-}*/
 
 
 .container {
@@ -23,6 +27,8 @@
   align-content: end;
   height: min-content;
   justify-content: start;
+
+ 
 
 }
 
