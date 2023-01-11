@@ -6,8 +6,6 @@ floppy.addEventListener('touchstart', function () {
 });
 
 
-
-
 const compaq = document.querySelector('.compaq__inner');
 
 compaq.addEventListener('touchstart', function () {
